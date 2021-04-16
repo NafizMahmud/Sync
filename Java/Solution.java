@@ -1,4 +1,4 @@
-class Solution {
+ final class Solution {
 
     Solution(){
     }
