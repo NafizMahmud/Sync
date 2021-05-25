@@ -9,12 +9,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class Graph {
+public class DemoGraph {
     // int[][] graphData = { { 1, 3 }, { 1, 4 }, { 2, 3 }, { 2, 4 }, { 4, 3 } };
     int[][] graphData = { { 0, 1 }, { 0, 2 }, { 1, 2 }, { 2, 0 }, { 2, 3 }, { 3, 3 } };
     Map<Integer, List<Integer>> adj = new HashMap<>();
 
-    Graph() {
+    DemoGraph() {
         // Print Graph Data
         // for (int i = 0; i < graphData.length; i++) {
         // for (int j = 0; j < 2; j++) {
@@ -82,6 +82,6 @@ DFS();
     }
 
     public static void main(String[] args) {
-        Graph v = new Graph();
+        DemoGraph v = new DemoGraph();
     }
 }

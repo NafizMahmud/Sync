@@ -1,8 +1,8 @@
 import java.util.Arrays;
 
-class Rotate_array {
+class RotateArray {
 
-    Rotate_array(){
+    RotateArray(){
       int[] nums= {1,2,3,4,5,6,7};
       rotate(nums, 3);
         System.out.println(Arrays.toString(nums));
@@ -19,6 +19,6 @@ class Rotate_array {
       }
 
     public static void main(String[] args) {
-        Rotate_array solution = new Rotate_array();
+        RotateArray solution = new RotateArray();
     }
 }

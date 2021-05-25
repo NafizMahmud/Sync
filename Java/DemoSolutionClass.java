@@ -1,4 +1,6 @@
-class Solution {
+ final class DemoSolutionClass {
+    DemoSolutionClass(){
+    }
     public int removeDuplicates(int[] nums) {
         // 2 pointer appraoch
         // i is the slow runner

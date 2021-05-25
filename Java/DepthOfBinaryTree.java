@@ -1,15 +1,15 @@
-class Tree {
-    static TreeNode xParent = null;
-    static TreeNode yParent = null;
+class DepthOfBinaryTree {
+    static DemoTreeNode xParent = null;
+    static DemoTreeNode yParent = null;
     static int xDepth = -1, yDepth = -1;
 
-    public static boolean isCousins(TreeNode root, int x, int y) {
+    public static boolean isCousins(DemoTreeNode root, int x, int y) {
         getDepthAndParent(root, x, y, 0, null);
         return xDepth == yDepth && xParent != yParent ? true : false;
     }
 
     // get both the depth and parent for x and y
-    public static void getDepthAndParent(TreeNode root, int x, int y, int depth, TreeNode parent) {
+    public static void getDepthAndParent(DemoTreeNode root, int x, int y, int depth, DemoTreeNode parent) {
         if (root == null) {
             return;
         }
@@ -28,9 +28,9 @@ class Tree {
 
 
     public static void main(String[] args) {
-        TreeNode treeleft = new TreeNode(2);
-        TreeNode treeright = new TreeNode(3);
-        TreeNode treemain = new TreeNode(3, treeleft, treeright);
+        DemoTreeNode treeleft = new DemoTreeNode(2);
+        DemoTreeNode treeright = new DemoTreeNode(3);
+        DemoTreeNode treemain = new DemoTreeNode(3, treeleft, treeright);
         System.out.println("Hello, World." + treemain.toString());
         System.out.println(isCousins(treemain, 4,3));
     }

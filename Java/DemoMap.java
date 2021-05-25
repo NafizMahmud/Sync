@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-class MapSyntax {
+class DemoMap {
     public static void main(String[] args) {
         Map<String, String> test2 = Map.ofEntries(entry("a", "b"), entry("c", "d"));
         System.out.println(test2);

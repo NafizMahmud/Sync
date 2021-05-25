@@ -1,8 +1,8 @@
 import java.util.Arrays;
 
-class Remove_Duplicates_from_Sorted_Array {
+class RemoveDuplicatesFromSortedArray {
 
-    Remove_Duplicates_from_Sorted_Array() {
+    RemoveDuplicatesFromSortedArray() {
         // int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
         // System.out.println(removeDuplicates(nums));
         // System.out.println(Arrays.toString(nums));
@@ -33,6 +33,6 @@ class Remove_Duplicates_from_Sorted_Array {
     }
 
     public static void main(String[] args) {
-        Remove_Duplicates_from_Sorted_Array solution = new Remove_Duplicates_from_Sorted_Array();
+        RemoveDuplicatesFromSortedArray solution = new RemoveDuplicatesFromSortedArray();
     }
 }

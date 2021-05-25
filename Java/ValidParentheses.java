@@ -2,8 +2,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-class Valid_Parentheses {
-    Valid_Parentheses() {
+class ValidParentheses {
+    ValidParentheses() {
         System.out.println(isValid("()[]{}"));
         System.out.println(isValid("([}}])"));
     };
@@ -33,6 +33,6 @@ class Valid_Parentheses {
     }
 
     public static void main(String[] args) {
-        Valid_Parentheses v = new Valid_Parentheses();
+        ValidParentheses v = new ValidParentheses();
     }
 }

@@ -1,8 +1,8 @@
 import java.util.*;
 
-public class Equilibrium_Index {
+public class EquilibriumIndex {
 
-Equilibrium_Index(){
+EquilibriumIndex(){
     int[] nums = {-1, 3, -4, 5, 1, -6, 2, 1};
     int[] frontPass = new int[nums.length];
     int[] backPass = new int[nums.length];
@@ -19,6 +19,6 @@ Equilibrium_Index(){
 
 }
     public static void main(String[] args) {
-        Equilibrium_Index solution = new Equilibrium_Index();
+        EquilibriumIndex solution = new EquilibriumIndex();
     }
 }

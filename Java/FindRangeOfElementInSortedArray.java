@@ -1,6 +1,6 @@
-class Find_First_and_Last_Position_of_Element_in_Sorted_Array {
+class FindRangeOfElementInSortedArray {
 
-    Find_First_and_Last_Position_of_Element_in_Sorted_Array() {
+    FindRangeOfElementInSortedArray() {
         int[] nums = {5};
         int target = 8;
         System.out.println(binarySearchLeft(nums, target));
@@ -37,6 +37,6 @@ class Find_First_and_Last_Position_of_Element_in_Sorted_Array {
     }
 
     public static void main(String[] args) {
-        Find_First_and_Last_Position_of_Element_in_Sorted_Array solution = new Find_First_and_Last_Position_of_Element_in_Sorted_Array();
+        FindRangeOfElementInSortedArray solution = new FindRangeOfElementInSortedArray();
     }
 }

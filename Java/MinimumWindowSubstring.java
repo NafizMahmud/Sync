@@ -1,10 +1,10 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Minimum_Window_Substring {
+public class MinimumWindowSubstring {
     Map<Character, Integer> map = new HashMap<Character, Integer>();
     int start = 0, end =0, length = 100001;
-    Minimum_Window_Substring() {
+    MinimumWindowSubstring() {
         minWindow("bbaa","aba");
     }
 
@@ -46,6 +46,6 @@ public class Minimum_Window_Substring {
     }
 
     public static void main(String[] args) {
-        Minimum_Window_Substring solution = new Minimum_Window_Substring();
+        MinimumWindowSubstring solution = new MinimumWindowSubstring();
     }
 }

@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-class Stack_Queue_Test {
+class DemoStackQueue {
 
     public static void main(String[] args) {
         Queue<Object> q = new LinkedList<>();
